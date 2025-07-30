@@ -23,7 +23,8 @@ A new trend in monospaced fonts for programming use is ligatures. On one hand, t
 
 ## Thanks
 
-My motivation started with the amazing work done by [Programming Fonts](https://www.programmingfonts.org/)
+My motivation started with the amazing work done by [Programming Fonts](https://www.programmingfonts.org/).
+
 Also [TIOBE](https://www.tiobe.com/) for collecting and sharing the interest of various programming languages.
 
 ## FYI

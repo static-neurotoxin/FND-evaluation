@@ -36,28 +36,32 @@ This paragraph contains **bold text**, *italic text*, and text that is both ***b
 
 ### Code Block
 
-```javascript
-// A syntax-highlighted JavaScript code block
-function greet(name) {
-  console.log(`Hello, ${name}!`);
-}
+```cpp
+#include<iostream>
 
-greet('World');
+int main(void)
+{
+    std::cout << "Hello world (again!?!)" << std::endl;
+
+    return 0;
+}
 ```
 
 ### Table
 
-| Header 1      | Header 2      | Header 3 |
-|---------------|:-------------:|---------:|
-| Left-aligned  | Centered      | Right    |
-| cell          | cell          | $1600    |
-| cell          | cell          | $12      |
+| Header 1     | Header 2 | Header 3 |
+|--------------|:--------:|---------:|
+| Left-aligned | Centered |    Right |
+| Foo          |   Bar    |    $1600 |
+| Baz          |  Fübar   |      $12 |
+
+This is Spin̈al Tap
 
 ### Links
 
 For a full, verbose guide, see the [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
 
-A much more exhaustive markdown test document can is [John Gruber's example](https://roneo.org/markdown/).
+A much more exhaustive markdown test document is [John Gruber's example](https://roneo.org/markdown/).
 
 ### Extras
 
