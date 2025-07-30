@@ -23,7 +23,7 @@ This paragraph contains **bold text**, *italic text*, and text that is both ***b
 
 1. First item in an ordered list.
 2. Second item.
-    1 A nested ordered item.
+    1. A nested ordered item.
 3. Third item.
 
 - An unordered list item.
