@@ -1,10 +1,15 @@
 # TIOBE top 20 programming languages
 
-From July 2025
+Here is included samples of 19 of the 20 top programming languages from July 2025. Scratch is omitted, as far as I can tell, the language is visual rather than textual. Many of the samples are "Hello World", sourced from [Wikipedia](https://en.wikipedia.org). This text is available under [Creative Commons Attribution-ShareAlike 4.0 License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License), but generally isn't particularly useful to show programming ligatures or significantly exercise context coloring/formatting.
+
+I have also sourced several of the samples from [programmingfonts.org](https://programmingfonts.org), which I believe are licensed under the MIT license.
+
+Beyond a quick visual review, I have not tested any of this code. I have no reason to believe any of it is syntactically correct or useful in any fashion.
+𒋳𒈠𒄞𒍪𒋢𒂵𒄠𒄿𒈾𒀀𒆷𒆠𒋗𒀀𒉿𒇴𒅅𒆠𒅁𒈠𒍑𒋫𒈪𒀉𒁲𒉡𒌝𒋗𒌑𒊒𒄖𒌝𒈠𒄠𒌑𒌌𒄿𒋗[^1]
 
 ## Python
 
-From (programmingfonts.org)
+From [programmingfonts.org](https://programmingfonts.org)
 
 ```python
 import os
@@ -187,7 +192,7 @@ class Program
 
 ## JavaScript
 
-From (programmingfonts.org)
+From [programmingfonts.org](https://programmingfonts.org)
 
 ```js
 import { Cookies } from './cookies.js'
@@ -226,7 +231,7 @@ export class Language {
 
 ## Go
 
-From (programmingfonts.org)
+From [programmingfonts.org](https://programmingfonts.org)
 
 ```go
 package main
@@ -399,7 +404,7 @@ ORDER BY
 
 ## PHP
 
-From (programmingfonts.org)
+From [programmingfonts.org](https://programmingfonts.org)
 
 ```php
 <?php
@@ -473,7 +478,6 @@ rgbImageOut = cat(3, redChannel, greenChannel, blueChannel);
 imshow(rgbImageOut);
 ```
 
-
 ## Rust
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))
@@ -530,3 +534,5 @@ fun main() {
     println("Hello, $scope!")
 }
 ```
+
+[^1]: Law [§ 250](https://ehammurabi.org/law/250) of Hammurabi's Code. by way of [Cunify](https://andrewsenior.com/cuneify/)
