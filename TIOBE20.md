@@ -366,40 +366,12 @@ print "\n";
 
 ## Fortran
 
-Fortran 77 sample from [Wikipedia](https://en.wikipedia.org/wiki/Fortran)
+Fortran 90 sample from [Wikipedia](https://en.wikipedia.org/wiki/Fortran)
 
 ```fortran
-      PROGRAM HERON
-C AREA OF A TRIANGLE WITH A STANDARD SQUARE ROOT FUNCTION
-C INPUT - DEFAULT STANDARD INPUT UNIT, INTEGER INPUT
-C OUTPUT - DEFAULT STANDARD OUTPUT UNIT, REAL OUTPUT
-C INPUT ERROR DISPLAY ERROR OUTPUT CODE 1 IN JOB CONTROL LISTING
-      READ (*, *) IA, IB, IC
-C
-C IA, IB, AND IC MAY NOT BE NEGATIVE OR ZERO
-C FURTHERMORE, THE SUM OF TWO SIDES OF A TRIANGLE
-C MUST BE GREATER THAN THE THIRD SIDE, SO WE CHECK FOR THAT, TOO
-      IF (IA .LE. 0 .OR. IB .LE. 0 .OR. IC .LE. 0) THEN
-        WRITE (*, *) 'IA, IB, and IC must be greater than zero.'
-        STOP 1
-      END IF
-C
-      IF (IA+IB-IC .LE. 0
-     +    .OR. IA+IC-IB .LE. 0
-     +    .OR. IB+IC-IA .LE. 0) THEN
-        WRITE (*, *) 'Sum of two sides must be greater than third side.'
-        STOP 1
-      END IF
-C
-C USING HERON'S FORMULA WE CALCULATE THE
-C AREA OF THE TRIANGLE
-      S = (IA + IB + IC) / 2.0
-      AREA = SQRT ( S * (S - IA) * (S - IB) * (S - IC))
-      WRITE (*, 601) IA, IB, IC, AREA
-  601 FORMAT ('A= ', I5, '  B= ', I5, '  C= ', I5, '  AREA= ', F10.2,
-     +        ' square units')
-      STOP
-      END
+program helloworld
+     print *, "Hello, World!"
+end program helloworld
 ```
 
 ## SQL
