@@ -1,6 +1,8 @@
 # TIOBE top 20 programming languages
 
-Here is included samples of 19 of the 20 top programming languages from July 2025. Scratch is omitted, as far as I can tell, the language is visual rather than textual. Many of the samples are "Hello World", sourced from [Wikipedia](https://en.wikipedia.org). This text is available under [Creative Commons Attribution-ShareAlike 4.0 License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License), but generally isn't particularly useful to show programming ligatures or significantly exercise context coloring/formatting.
+Here is included samples of 19 of the 20 top programming languages from July 2025. Scratch is omitted, as far as I can tell, the language is visual rather than textual.
+
+Many of the samples are "Hello World", sourced from [Wikipedia](https://en.wikipedia.org). This text is available under [Creative Commons Attribution-ShareAlike 4.0 License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License), but generally isn't particularly useful to show programming ligatures or significantly exercise context coloring/formatting.
 
 I have also sourced several of the samples from [programmingfonts.org](https://programmingfonts.org), which I believe are licensed under the MIT license.
 
@@ -535,4 +537,4 @@ fun main() {
 }
 ```
 
-[^1]: Law [§ 250](https://ehammurabi.org/law/250) of Hammurabi's Code. by way of [Cunify](https://andrewsenior.com/cuneify/)
+[^1]: Law [§ 250](https://ehammurabi.org/law/250) of Hammurabi's Code. by way of [Cunify](https://andrewsenior.com/cuneify/).
