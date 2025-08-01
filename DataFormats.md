@@ -150,8 +150,8 @@ server:
   host: 127.0.0.1
   port: 8080
   security:
-	enabled: true
-	tls_version: 1.3
+    enabled: true
+    tls_version: 1.3
 
 database:
   user: "admin"
@@ -160,10 +160,10 @@ database:
   pool_size: 20
   # List of replica nodes
   replicas:
-	- host: "replica1.db.internal"
-	  port: 5432
-	- host: "replica2.db.internal"
-	  port: 5432
+    - host: "replica1.db.internal"
+      port: 5432
+    - host: "replica2.db.internal"
+      port: 5432
 ```
 
 ### TOML
