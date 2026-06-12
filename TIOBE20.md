@@ -49,7 +49,7 @@ class SideBarDuplicateCommand(SideBarCommand):
 
 ## C++
 
-```Cpp
+```cpp
 #include <iostream>
 #include <vector>
 #include <string>
@@ -325,7 +325,7 @@ end Hello;
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Delphi_(software))
 
-```delphi
+```pascal
 program ObjectPascalExample;
 
 type
@@ -505,7 +505,7 @@ fn main() {
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Assembly_language)
 
-```nasm
+```asm
 section	.text
    global _start
 	
