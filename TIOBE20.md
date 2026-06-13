@@ -325,7 +325,7 @@ end Hello;
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Delphi_(software))
 
-```pascal
+```delphi
 program ObjectPascalExample;
 
 type
@@ -505,7 +505,7 @@ fn main() {
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Assembly_language)
 
-```asm
+```nasm
 section	.text
    global _start
 	
